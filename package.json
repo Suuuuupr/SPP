@@ -1,32 +1,13 @@
 {
-  "name": "discord.js-heroku",
-  "version": "1.0.0",
-  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
-  "main": "index.js",
-  "engines": {
-    "node": "*",
-    "npm": "*"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
-  },
-  "keywords": [
-    "heroku",
-    "discord.js"
-  ],
-  "author": "synicalsyntax",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
-  },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
-  "dependencies": {
-    "discord.js": "^11.3.0",
+    "name": "bytetech",
+    "version": "2.1.0",
+    "description": "-- AWESOMENESS --",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js"
+    },
+    "dependencies": {
+   "discord.js": "^11.3.0",
     "ascii-data-table": "^2.1.1",
     "canvas": "^1.6.10",
     "dateformat": "^3.0.3",
@@ -50,16 +31,9 @@
     "sqlite3": "^4.0.0",
     "youtube-info": "^1.2.0",
     "ytdl-core": "^0.20.3",
-    "queue": "*"
-  },
-  "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-config-aqua": "^1.0.0"
-  },
-  "eslintConfig": {
-    "extends": "aqua",
-    "rules": {
-      "no-console": 0
+    "queue": "*""
+    },
+    "engines": {
+      "node": "8.4.0"
     }
   }
-}
